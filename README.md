@@ -6,3 +6,4 @@ We authenticate the users via email and password with some functions inside Fire
 After the user is authenticated he can enable our Protected routes (Popular,Top_rated,Trending,Horror,up_coming) 
 The authenticate users can also add or delete their favorite movies and for this we used the cloudstorage database of Firebase when we can check all the users and their favorite movies.
 Some React key elements uses are : useEffect for fetching our data, React Router Dom for creating the urls useNavigate and Link for redirecting the user, useState for controlling the state of our variables, context API for passing the state in different componemts and prop drilling .
+Last but not least we used our api keys for fetching data from tmdb and for configuring the firebase.
